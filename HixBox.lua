@@ -1,4 +1,4 @@
-_G.Disabled = false -- true/false
+_G.Disabled = true -- true/false
 
 game:GetService('RunService').RenderStepped:connect(function()
 if _G.Disabled then
@@ -16,5 +16,6 @@ end
 end
 
 end)
+
 
 
