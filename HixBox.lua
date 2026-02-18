@@ -1,3 +1,5 @@
+_G.Disabled = true     -- true/false
+
 game:GetService('RunService').RenderStepped:connect(function()
 if _G.Disabled then
 for i,v in next, game:GetService('Players'):GetPlayers() do
@@ -12,4 +14,5 @@ end)
 end
 end
 end
+
 end)
