@@ -1,4 +1,4 @@
-_G.HeadSize = 100 -- The size 50 to 350.
+_G.HeadSize = 75 -- The size 50 to 350.
 _G.Disabled = true -- true/false
 game:GetService('RunService').RenderStepped:connect(function()
 if _G.Disabled then
@@ -15,4 +15,5 @@ end
 end
 end
 end)
+
 
